@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Kaiji's E-Card game - Play live !</title>
+        <title>Kaiji&apos;s E-Card game - Play live !</title>
         <meta name="description" content="Play Kaiji's E-Card game from anime Gyakkyou Burai Kaiji: Ultimate Survivor. Face your friends to this psychological card game." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
