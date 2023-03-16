@@ -20,14 +20,13 @@ const SiteLayout: FC<SiteLayoutProps> = ({ children, title }) => {
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#2e3141"></meta>
       </Head>
-      <section className="grid grid-cols-[1fr_2fr] grid-rows-[1fr_4fr_1fr]">
-        <section className="row-span-3 bg-red-900">
+      <section className="h-screen grid grid-cols-[1fr_2fr] grid-rows-[1fr_4fr_100px]">
+        <section className="row-span-3 bg-red-900 relative">
           <Image
-            src="/kaiji-bg-v2.png"
-            className=""
+            src="/kaiji-bg.jpg"
+            className="object-cover"
             alt=""
-            width="227"
-            height="66" />
+            fill />
         </section>
         <header className="bg-slate-500 flex justify-center items-center text-2xl">
           <h1>Header</h1>

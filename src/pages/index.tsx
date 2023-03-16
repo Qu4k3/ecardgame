@@ -11,8 +11,8 @@ export default function Home() {
         <div className={styles.description}>Description</div>
 
         <div className={styles.center}>
-          <h1 className='{}'>E-Card Game</h1>
-          <h2 className='{}'>Ｅカード</h2>
+          <h1 className=''>E-Card Game</h1>
+          <h2 className=''>Ｅカード</h2>
         </div>
       </SiteLayout>
 
