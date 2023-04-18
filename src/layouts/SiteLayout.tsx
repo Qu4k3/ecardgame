@@ -1,3 +1,4 @@
+import EHeader from "@/components/EHeader";
 import Head from "next/head";
 import Image from 'next/image'
 import { FC, ReactNode } from "react";
@@ -29,13 +30,13 @@ const SiteLayout: FC<SiteLayoutProps> = ({ children, title }) => {
             fill />
         </section>
         <header className="bg-slate-500 flex justify-center items-center text-2xl">
-          <h1>Header</h1>
+          <EHeader></EHeader>
         </header>
         <main className="bg-green-100">
           {children}
         </main>
         <footer className="flex py-2 mt-5 w-100 justify-center">
-          <span className="block center mx-auto"> © {(new Date().getFullYear())}</span>
+          <span className="block center mx-auto">ecardgame.io © 2017-{(new Date().getFullYear())} - All rights reserved. This site is not related to Kaiji brand</span>
         </footer>
       </section>
     </>
