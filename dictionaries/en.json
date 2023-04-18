@@ -1,0 +1,9 @@
+{
+    "menu": {
+        "multiplayer": "Multiplayer",
+        "singlePlayer": "Single Player",
+        "rules": "Rules",
+        "history": "History",
+        "credits": "Credits"
+    }
+}
