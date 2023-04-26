@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-w-full min-h-full">
       <SiteLayout title='Home'>
-        <EMenu></EMenu>
+        <EMenu />
       </SiteLayout>
     </div>
   )

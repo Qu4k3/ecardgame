@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+import icon_arr
 
 html,
 body {
@@ -10,3 +11,9 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+@layer components {
+  .emenu-item {
+    @apply font-bold relative hover:font-black hover:before:content-[url("../../public/icon_arrow_d.svg")] hover:before:absolute hover:before:-left-8 hover:before:top-0.5 
+  }
+  
+}

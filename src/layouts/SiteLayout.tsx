@@ -29,7 +29,7 @@ const SiteLayout: FC<SiteLayoutProps> = ({ children, title }) => {
             alt=""
             fill />
         </section>
-        <header className="bg-slate-500 flex justify-center items-center text-2xl">
+        <header className="bg-slate-500 flex justify-start pl-40 items-center text-2xl">
           <EHeader></EHeader>
         </header>
         <main className="bg-green-100">
